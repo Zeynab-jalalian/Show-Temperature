@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.scss";
 
 function App() {
-  const [temp, setTemp] = useState(34);
+  const [temp, setTemp] = useState(15);
 
   function decrease() {
     const newTemp = temp - 1;
